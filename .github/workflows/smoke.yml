@@ -1,0 +1,33 @@
+name: Distribution smoke test
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  homebrew:
+    name: Homebrew (${{ matrix.os }})
+    strategy:
+      fail-fast: false
+      matrix:
+        os:
+          - macos-15
+          - ubuntu-24.04
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 20
+    steps:
+      - name: Configure Linux Homebrew
+        if: runner.os == 'Linux'
+        run: echo "/home/linuxbrew/.linuxbrew/bin" >> "$GITHUB_PATH"
+
+      - name: Install from the public tap redirect
+        run: brew install champv12/veil/veil
+
+      - name: Verify CLI and formula
+        run: |
+          veil --help > veil-help.txt
+          grep -q 'Usage:' veil-help.txt
+          grep -q 'veil open' veil-help.txt
+          brew test champv12/veil/veil
