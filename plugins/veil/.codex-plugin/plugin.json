@@ -1,0 +1,42 @@
+{
+  "name": "veil",
+  "version": "0.1.2",
+  "description": "Use the complete Veil CLI workflow through Codex: private contexts, manual or agent work, verification, comparison, and approved publication.",
+  "author": {
+    "name": "Veil",
+    "url": "https://useveil.dev"
+  },
+  "homepage": "https://useveil.dev",
+  "repository": "https://github.com/champv12/veil-private-changes",
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": [
+    "coding",
+    "review",
+    "local-first"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Veil",
+    "shortDescription": "The complete private Veil workflow in Codex.",
+    "longDescription": "Open public repositories or the current checkout, work manually or with one or two Codex candidates, checkpoint and capture encrypted results, follow logs, compare and select verified candidates, export patches or draft pull requests with confirmation, and optionally manage privacy-reviewed dashboard monitoring.",
+    "developerName": "Veil",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://useveil.dev",
+    "privacyPolicyURL": "https://useveil.dev/privacy",
+    "termsOfServiceURL": "https://useveil.dev/terms",
+    "defaultPrompt": [
+      "Open this public GitHub repository as a private Veil context.",
+      "Open a Veil workspace so I can work manually or with agents.",
+      "Compare my Veil candidates, then help me publish or export a patch."
+    ],
+    "brandColor": "#6D5DFB",
+    "composerIcon": "./assets/veil-mark.svg",
+    "logo": "./assets/veil-mark.svg",
+    "logoDark": "./assets/veil-mark.svg"
+  }
+}

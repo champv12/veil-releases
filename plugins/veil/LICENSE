@@ -1,0 +1,84 @@
+Veil Proprietary Software License
+
+Copyright (c) 2026 Veil. All rights reserved.
+
+IMPORTANT: READ THIS LICENSE CAREFULLY. BY DOWNLOADING, INSTALLING, ACCESSING,
+OR USING THE SOFTWARE, YOU AGREE TO THIS LICENSE. IF YOU DO NOT AGREE, DO NOT
+DOWNLOAD, INSTALL, ACCESS, OR USE THE SOFTWARE.
+
+1. Software
+
+"Software" means the Veil command-line interface, editor extensions, plugins,
+binaries, documentation, updates, and related materials distributed with this
+license. Third-party software is governed by its own license terms.
+
+2. Limited License
+
+Subject to this license, Veil grants you a limited, non-exclusive,
+non-transferable, non-sublicensable, revocable license to install and execute
+the unmodified Software for your personal use or your organization's internal
+business purposes. You may make only those temporary or backup copies
+reasonably necessary for permitted installation and use.
+
+3. Restrictions
+
+Except where applicable law expressly prohibits a restriction, you may not:
+
+(a) copy, reproduce, publish, distribute, sublicense, sell, rent, lease, lend,
+    host, or otherwise make the Software available to any third party;
+(b) modify, adapt, translate, or create derivative works of the Software;
+(c) reverse engineer, decompile, disassemble, discover source code or underlying
+    ideas or algorithms, or circumvent technical restrictions in the Software;
+(d) remove or alter proprietary notices, attribution, or branding;
+(e) use the Software to violate law, infringe rights, gain unauthorized access,
+    or develop or provide a competing product or service; or
+(f) transfer this license without Veil's prior written permission.
+
+4. Ownership
+
+The Software is licensed, not sold. Veil and its licensors retain all right,
+title, and interest in the Software, including all intellectual-property rights.
+No rights are granted except those expressly stated in this license.
+
+5. Feedback
+
+If you voluntarily provide feedback about the Software, you grant Veil a
+perpetual, worldwide, irrevocable, royalty-free right to use and incorporate
+that feedback without restriction or obligation.
+
+6. Updates and Services
+
+Veil may modify, update, suspend, or discontinue the Software or related
+services at any time. This license does not promise support, maintenance,
+updates, availability, or compatibility.
+
+7. Termination
+
+This license terminates automatically if you breach it. On termination, you
+must stop using the Software and delete all copies in your possession or
+control. Sections intended by their nature to survive termination will survive.
+
+8. Disclaimer
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE SOFTWARE IS PROVIDED "AS IS" AND
+"AS AVAILABLE," WITHOUT WARRANTIES OF ANY KIND, EXPRESS, IMPLIED, OR
+STATUTORY, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE, TITLE, NON-INFRINGEMENT, ACCURACY, OR RELIABILITY.
+
+9. Limitation of Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, VEIL AND ITS LICENSORS WILL NOT BE
+LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR
+PUNITIVE DAMAGES, OR FOR LOSS OF PROFITS, REVENUE, DATA, GOODWILL, OR BUSINESS
+INTERRUPTION, ARISING FROM OR RELATED TO THE SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGES.
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, VEIL'S TOTAL LIABILITY ARISING FROM OR
+RELATED TO THE SOFTWARE WILL NOT EXCEED THE GREATER OF (A) THE AMOUNT YOU PAID
+VEIL FOR THE SOFTWARE DURING THE TWELVE MONTHS BEFORE THE EVENT GIVING RISE TO
+THE CLAIM OR (B) USD $10.
+
+10. Mandatory Rights
+
+Nothing in this license excludes, restricts, or modifies rights or remedies
+that cannot lawfully be excluded, restricted, or modified.

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "veil": {
+      "command": "veil",
+      "args": ["mcp", "serve", "--surface", "codex-plugin"]
+    }
+  }
+}

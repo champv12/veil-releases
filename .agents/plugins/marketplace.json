@@ -1,0 +1,20 @@
+{
+  "name": "veil",
+  "interface": {
+    "displayName": "Veil Plugins"
+  },
+  "plugins": [
+    {
+      "name": "veil",
+      "source": {
+        "source": "local",
+        "path": "./plugins/veil"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
