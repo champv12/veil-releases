@@ -1,7 +1,7 @@
 {
   "name": "veil",
-  "version": "0.1.2",
-  "description": "Use the complete Veil CLI workflow through Codex: private contexts, manual or agent work, verification, comparison, and approved publication.",
+  "version": "0.2.0",
+  "description": "Use the complete Veil CLI workflow through Codex: private contexts, manual or agent work, automatic verification, and approved publication.",
   "author": {
     "name": "Veil",
     "url": "https://useveil.dev"
@@ -19,7 +19,7 @@
   "interface": {
     "displayName": "Veil",
     "shortDescription": "The complete private Veil workflow in Codex.",
-    "longDescription": "Open public repositories or the current checkout, work manually or with one or two Codex candidates, checkpoint and capture encrypted results, follow logs, compare and select verified candidates, export patches or draft pull requests with confirmation, and optionally manage privacy-reviewed dashboard monitoring.",
+    "longDescription": "Open a public repository or current checkout as a private local-first workspace, work manually or with the Codex agent harness, automatically verify the current encrypted result, and publish a patch or draft pull request only with confirmation. No public fork is required to begin.",
     "developerName": "Veil",
     "category": "Productivity",
     "capabilities": [
@@ -31,8 +31,8 @@
     "termsOfServiceURL": "https://useveil.dev/terms",
     "defaultPrompt": [
       "Open this public GitHub repository as a private Veil context.",
-      "Open a Veil workspace so I can work manually or with agents.",
-      "Compare my Veil candidates, then help me publish or export a patch."
+      "Open a Veil workspace so I can work manually or with the Codex agent harness.",
+      "Show the status of my verified Veil result, then help me publish or export it when I approve."
     ],
     "brandColor": "#6D5DFB",
     "composerIcon": "./assets/veil-mark.svg",
