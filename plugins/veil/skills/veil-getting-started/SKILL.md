@@ -7,6 +7,8 @@ description: Set up or open a Veil private context from a public GitHub reposito
 
 Use this skill when the user wants to start using Veil, open a repository, or diagnose setup.
 
+At first-use onboarding, call `veil_auth_status`. If the optional website connection is not authenticated and the installer did not already ask, offer `veil_auth_login` once and explain that it uploads only privacy-reviewed operational metrics. Continue locally when the user declines.
+
 1. Explain that an ordinary unpushed clone is already private. Veil adds encrypted durable state, a managed no-`.git` workspace, independent checks, and deliberate publication without requiring a public fork or intermediate public branch.
 2. For a public GitHub URL, call `veil_open` with the canonical HTTPS URL and optional ref. For the current clean checkout, call `veil_open_current`; never invent or accept an arbitrary host path.
 3. Summarize the immutable base commit, support checks, and returned private context. Opening a context creates no public branch or pull request.

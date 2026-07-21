@@ -1,6 +1,6 @@
 {
   "name": "veil",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Use the complete Veil CLI workflow through Codex: private contexts, manual or agent work, automatic verification, and approved publication.",
   "author": {
     "name": "Veil",

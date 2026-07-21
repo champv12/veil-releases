@@ -1,9 +1,9 @@
 class Veil < Formula
   desc "Private, local-first changes for public GitHub repositories"
   homepage "https://useveil.dev"
-  url "https://registry.npmjs.org/@useveil-dev/cli/-/cli-0.2.0.tgz"
-  version "0.2.0"
-  sha256 "b648b58da1df8ee4e6754cb6afe0c41803cada6d4150d5258c70d9d38cdbe5fe"
+  url "https://registry.npmjs.org/@useveil-dev/cli/-/cli-0.2.1.tgz"
+  version "0.2.1"
+  sha256 "40948524acb40225e33357248c9f43e9b15a4acd8b6077df1c4e2b56f8dd2df9"
   license :cannot_represent
 
   depends_on "git"
